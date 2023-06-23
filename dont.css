@@ -71,15 +71,22 @@ ul li a {
 
 }
 
+ul li a:hover {
+    color: #ff00c3;
+}
+
 .order {
     color: #FF9900;
+}
+.order:hover{
+    color:black 
 }
 
 .content {
     position: absolute;
     width: 462px;
     height: 378px;
-    left: 131px;
+    left: 125px;
     top: 150px;
     font-style: normal;
     font-weight: 400;
@@ -107,13 +114,14 @@ h1 span {
 }
 
 .order-now {
+
     position: absolute;
     width: 148px;
     height: 36px;
     left: -5px;
     background-color: #FF9900;
     text-align: center;
-    margin: 20px auto;
+    margin: 30px auto;
     border-radius: 15px;
 
 }
@@ -128,7 +136,7 @@ h1 span {
     position: absolute;
     width: 400px;
     height: 350px;
-    left: 840px;
+    left: 815px;
     top: 180px;
 }
 
@@ -136,7 +144,7 @@ h1 span {
     position: absolute;
     width: 420px;
     height: 300px;
-    left: 930px;
+    left: 905px;
     top: 180px;
     background: #FF9900;
     border-radius: 0 0 50% 50%;
@@ -147,14 +155,74 @@ h1 span {
 .quaelip {
     position: absolute;
     top: -90px;
-    width: 130px;
-    height: 150px;
-    left: 1160px;
+    width: 120px;
+    height: 140px;
+    left: 1135px;
     background: #FF9900;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-top-left-radius:0;
-    border-top-right-radius:0;
-    border-bottom-left-radius:0;
-    border-bottom-right-radius:100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 100%;
+}
+
+.menu {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.menu1,
+.menu2,
+.menu3 {
+    width: 280px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: rgba(255, 153, 0, 0.90);
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+
+}
+
+.m1_image,
+.m2_image,
+.m3_image {
+    display: block;
+    width: 110px;
+    height: 100px;
+    margin: auto;
+
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_1,
+.price_2,
+.price_3 {
+    font-size: 22px;
+    border-radius: 25px;
+    width: 100px;
+    height: 28px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.plus {
+    width: 35px;
+    height: 28px;
+    border-radius: 25px;
+    background-color: rgb(235, 235, 235);
+    font-size: 18px;
+    font-weight: 900;
 }
