@@ -58,7 +58,7 @@ ul>li {
     list-style: none;
 }
 
-ul li a {
+header ul li a {
     font-size: 20px;
     display: inline-block;
     justify-content: space-between;
@@ -145,6 +145,7 @@ h1 span {
 .heroimg {
     filter: drop-shadow(0px 4px 34px rgba(0, 0, 0, 0.25));
     position: absolute;
+    margin-left: 60px;
     width: 400px;
     height: 350px;
     left: 815px;
@@ -154,6 +155,7 @@ h1 span {
 .halfelip {
     position: absolute;
     width: 420px;
+    margin-left: 80px;
     height: 300px;
     left: 905px;
     top: 180px;
@@ -169,6 +171,7 @@ h1 span {
     width: 120px;
     height: 140px;
     left: 1135px;
+    margin-left: 90px;
     background: #FF9900;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -285,3 +288,63 @@ footer {
     height: 310px;
     background: rgba(94, 53, 16, 0.90);
 }
+
+.shop-name {
+    width: 400.666px;
+    height: 39.064px;
+    flex-shrink: 0;
+    color: rgba(255, 153, 0, 1);
+    font-size: 40px ;
+    margin-left: 50px;
+    border: 30px;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+
+.footer-page {
+    font-size: 40px;
+    display: inline-block;
+    justify-content: space-between ;
+    align-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.line {
+    width: 1300.5px;
+    height: 2px;
+    margin-left: 50px;
+    flex-shrink: 0;
+    color: rgba(147, 147, 147, 1);
+}
+
+.terms {
+    text-align: right;
+    margin-left: 600px;
+    padding: -100px;
+}
+
+.social-media {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 80px;
+}
+
+
+
+
